@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/projearkaplan1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.panel-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.custom-button:hover {
+    background-color: #297fb8;
+}
+
+
